@@ -1,11 +1,5 @@
 # CoinFlipper: Heads or Tails
 
-<h1 align="center">
-  <img src="./Demo/AppIcon.png">
-  <p>CoinFlipper: Heads or Tails</p>
-</h1>
-
-
 ## Overview
 
 CoinFlipper is a simple iOS application designed to help users make decisions by flipping a virtual coin. Whether you need to settle a bet, make a random choice, or simply pass the time, CoinFlipper provides a quick and easy way to determine heads or tails.
