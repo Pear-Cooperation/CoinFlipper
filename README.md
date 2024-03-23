@@ -1,6 +1,7 @@
 # CoinFlipper: Heads or Tails
 
-![App Icon](app_icon.png)
+![Group 1](https://github.com/Pear-Cooperation/CoinFlipper/assets/42979859/0b437b7a-f77d-4360-88f6-07eb7b6d1cf0)
+
 
 ## Overview
 
