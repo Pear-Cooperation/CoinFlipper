@@ -16,7 +16,7 @@ CoinFlipper is a simple iOS application designed to help users make decisions by
 
 ## Installation
 
-CoinFlipper can be installed on iOS devices running iOS 13.0 or later. You can download it from the [App Store](#)r build it from the source code provided in this repository.
+CoinFlipper can be installed on iOS devices running iOS 15.0 or later. You can download it from the [App Store](#) build it from the source code provided in this repository.
 
 ## Usage
 
