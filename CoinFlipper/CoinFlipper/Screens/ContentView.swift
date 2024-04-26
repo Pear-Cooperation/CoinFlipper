@@ -13,7 +13,9 @@ struct ContentView: View {
             Spacer()
             FlipCoinView()
             Spacer()
-            AdBanner(unitID: "ca-app-pub-5392122611881037/8479169287")
+            ZStack {
+                AdBanner(unitID: "ca-app-pub-5392122611881037/8479169287")
+            }.border(.gray)
         }
     }
 }
