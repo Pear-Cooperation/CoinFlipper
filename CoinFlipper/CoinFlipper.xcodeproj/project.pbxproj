@@ -17,8 +17,6 @@
 		FB3036D42BAF32D500C3A8EF /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3036D32BAF32D500C3A8EF /* ButtonView.swift */; };
 		FB3036D92BAF339500C3A8EF /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3036D82BAF339500C3A8EF /* SoundPlayer.swift */; };
 		FB3036DB2BAF391C00C3A8EF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3036DA2BAF391C00C3A8EF /* Launch Screen.storyboard */; };
-		FB4804FA2BDB15A2000BC5DA /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = FB4804F92BDB15A2000BC5DA /* GoogleMobileAds */; };
-		FB4804FD2BDB1AE6000BC5DA /* AdBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4804FC2BDB1AE6000BC5DA /* AdBanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +31,6 @@
 		FB3036D32BAF32D500C3A8EF /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		FB3036D82BAF339500C3A8EF /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		FB3036DA2BAF391C00C3A8EF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		FB4804FB2BDB1863000BC5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		FB4804FC2BDB1AE6000BC5DA /* AdBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBanner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +38,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4804FA2BDB15A2000BC5DA /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +63,6 @@
 		FB3036B92BAF316800C3A8EF /* CoinFlipper */ = {
 			isa = PBXGroup;
 			children = (
-				FB4804FB2BDB1863000BC5DA /* Info.plist */,
 				FB3036D62BAF32F600C3A8EF /* Core */,
 				FB3036D22BAF32BC00C3A8EF /* Views */,
 				FB3036D12BAF32AD00C3A8EF /* Screens */,
@@ -107,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				FB3036D32BAF32D500C3A8EF /* ButtonView.swift */,
-				FB4804FC2BDB1AE6000BC5DA /* AdBanner.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,9 +149,6 @@
 			dependencies = (
 			);
 			name = CoinFlipper;
-			packageProductDependencies = (
-				FB4804F92BDB15A2000BC5DA /* GoogleMobileAds */,
-			);
 			productName = CoinFlipper;
 			productReference = FB3036B72BAF316800C3A8EF /* CoinFlipper.app */;
 			productType = "com.apple.product-type.application";
@@ -187,9 +177,6 @@
 				Base,
 			);
 			mainGroup = FB3036AE2BAF316800C3A8EF;
-			packageReferences = (
-				FB4804F82BDB15A2000BC5DA /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
-			);
 			productRefGroup = FB3036B82BAF316800C3A8EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -224,7 +211,6 @@
 				FB3036CC2BAF320100C3A8EF /* FlipCoinViewModel.swift in Sources */,
 				FB3036D92BAF339500C3A8EF /* SoundPlayer.swift in Sources */,
 				FB3036BB2BAF316800C3A8EF /* CoinFlipperApp.swift in Sources */,
-				FB4804FD2BDB1AE6000BC5DA /* AdBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +347,6 @@
 				DEVELOPMENT_TEAM = NUPV8CM5G6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoinFlipper/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CoinFlipper;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -373,7 +358,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pear-cooperation.CoinFlipper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -397,7 +382,6 @@
 				DEVELOPMENT_TEAM = NUPV8CM5G6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoinFlipper/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CoinFlipper;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -409,7 +393,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pear-cooperation.CoinFlipper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -444,25 +428,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FB4804F82BDB15A2000BC5DA /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 11.3.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FB4804F92BDB15A2000BC5DA /* GoogleMobileAds */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FB4804F82BDB15A2000BC5DA /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
-			productName = GoogleMobileAds;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB3036AF2BAF316800C3A8EF /* Project object */;
 }
