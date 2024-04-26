@@ -32,6 +32,7 @@ struct FlipCoinView: View {
                 self.flipCoinVM.runRotateCoinAmimation()
             }) {
                 ButtonView(text: "Flip")
+                    .padding(.vertical, 28)
                     .padding(.horizontal, 16)
             }.buttonStyle(PlainButtonStyle())
         }.padding()
