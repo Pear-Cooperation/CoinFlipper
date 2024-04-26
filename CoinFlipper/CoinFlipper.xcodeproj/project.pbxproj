@@ -19,6 +19,7 @@
 		FB3036DB2BAF391C00C3A8EF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3036DA2BAF391C00C3A8EF /* Launch Screen.storyboard */; };
 		FB4804FA2BDB15A2000BC5DA /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = FB4804F92BDB15A2000BC5DA /* GoogleMobileAds */; };
 		FB4804FD2BDB1AE6000BC5DA /* AdBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4804FC2BDB1AE6000BC5DA /* AdBanner.swift */; };
+		FB4805002BDC19E4000BC5DA /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4804FF2BDC19E4000BC5DA /* UIApplication+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		FB3036DA2BAF391C00C3A8EF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		FB4804FB2BDB1863000BC5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FB4804FC2BDB1AE6000BC5DA /* AdBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBanner.swift; sourceTree = "<group>"; };
+		FB4804FF2BDC19E4000BC5DA /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		FB3036D12BAF32AD00C3A8EF /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				FB3036BC2BAF316800C3A8EF /* ContentView.swift */,
 				FB3036D52BAF32E800C3A8EF /* FlipCoin */,
 			);
 			path = Screens;
@@ -125,9 +128,9 @@
 		FB3036D62BAF32F600C3A8EF /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				FB4804FE2BDC19C8000BC5DA /* Extensions */,
 				FB3036D72BAF338000C3A8EF /* SoundPlayer */,
 				FB3036BA2BAF316800C3A8EF /* CoinFlipperApp.swift */,
-				FB3036BC2BAF316800C3A8EF /* ContentView.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -138,6 +141,14 @@
 				FB3036D82BAF339500C3A8EF /* SoundPlayer.swift */,
 			);
 			path = SoundPlayer;
+			sourceTree = "<group>";
+		};
+		FB4804FE2BDC19C8000BC5DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB4804FF2BDC19E4000BC5DA /* UIApplication+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 			files = (
 				FB3036BD2BAF316800C3A8EF /* ContentView.swift in Sources */,
 				FB3036CA2BAF31D900C3A8EF /* FlipCoinView.swift in Sources */,
+				FB4805002BDC19E4000BC5DA /* UIApplication+Extension.swift in Sources */,
 				FB3036D42BAF32D500C3A8EF /* ButtonView.swift in Sources */,
 				FB3036CC2BAF320100C3A8EF /* FlipCoinViewModel.swift in Sources */,
 				FB3036D92BAF339500C3A8EF /* SoundPlayer.swift in Sources */,
