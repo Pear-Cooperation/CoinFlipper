@@ -1,15 +1,26 @@
 //
-//  AdBanner.swift
+//  AdMobBannerView.swift
 //  CoinFlipper
 //
-//  Created by Yaroslav Kukhar on 26.04.2024.
+//  Created by Yaroslav Kukhar on 27.04.2024.
 //
 
-import Foundation
 import SwiftUI
 import GoogleMobileAds
 
-struct AdBanner: UIViewRepresentable {
+struct AdMobBannerView: View {
+    private let bannerMaxHeight = UIScreen.main.bounds.height / 5
+    
+    var body: some View {
+        ZStack {
+            AdBanner(unitID: "ca-app-pub-5392122611881037/8479169287")
+        }
+        .border(.gray)
+        .frame(maxHeight: bannerMaxHeight)
+    }
+}
+
+fileprivate struct AdBanner: UIViewRepresentable {
     var unitID: String
     
     func makeCoordinator() -> AdBannerCoordinator {
@@ -32,7 +43,7 @@ struct AdBanner: UIViewRepresentable {
 }
 
 // MARK: - GADBannerViewDelegate
-class AdBannerCoordinator: NSObject, GADBannerViewDelegate {
+fileprivate class AdBannerCoordinator: NSObject, GADBannerViewDelegate {
     func bannerViewDidReceiveAd(_ bannerView: GADBannerView) {
       print("bannerViewDidReceiveAd")
     }
@@ -57,3 +68,4 @@ class AdBannerCoordinator: NSObject, GADBannerViewDelegate {
       print("bannerViewDidDismissScreen")
     }
 }
+
