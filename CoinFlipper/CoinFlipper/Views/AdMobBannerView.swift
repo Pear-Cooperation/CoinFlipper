@@ -15,7 +15,6 @@ struct AdMobBannerView: View {
         ZStack {
             AdBanner(unitID: "ca-app-pub-5392122611881037/8479169287")
         }
-        .border(.gray)
         .frame(maxHeight: bannerMaxHeight)
     }
 }
